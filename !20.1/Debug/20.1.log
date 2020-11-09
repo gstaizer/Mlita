@@ -1,0 +1,5 @@
+﻿  20.1.cpp
+D:\Research-Data\Mlita\20.1\20.1.cpp(40,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Research-Data\Mlita\20.1\20.1.cpp(74,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Research-Data\Mlita\20.1\20.1.cpp(82,21): warning C4018: <: несоответствие типов со знаком и без знака
+  20.1.vcxproj -> D:\Research-Data\Mlita\20.1\Debug\20.1.exe
