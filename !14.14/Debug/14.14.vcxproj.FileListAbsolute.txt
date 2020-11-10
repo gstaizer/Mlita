@@ -1,4 +1,0 @@
-D:\Research-Data\Mlita\14.14\Debug\14.14.exe
-D:\Research-Data\Mlita\14.14\Debug\14.14.pdb
-D:\Research-Data\Mlita\!14.14\Debug\14.14.exe
-D:\Research-Data\Mlita\!14.14\Debug\14.14.pdb
