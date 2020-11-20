@@ -1,6 +1,6 @@
 ﻿  20.5.cpp
 D:\Research-Data\Mlita\20.5\20.5.cpp(55,30): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-D:\Research-Data\Mlita\20.5\20.5.cpp(64,40): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-D:\Research-Data\Mlita\20.5\20.5.cpp(74,48): warning C4244: =: преобразование "double" в "int", возможна потеря данных
-D:\Research-Data\Mlita\20.5\20.5.cpp(84,70): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Research-Data\Mlita\20.5\20.5.cpp(71,44): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Research-Data\Mlita\20.5\20.5.cpp(81,52): warning C4244: =: преобразование "double" в "int", возможна потеря данных
+D:\Research-Data\Mlita\20.5\20.5.cpp(91,74): warning C4244: =: преобразование "double" в "int", возможна потеря данных
   20.5.vcxproj -> D:\Research-Data\Mlita\20.5\Debug\20.5.exe

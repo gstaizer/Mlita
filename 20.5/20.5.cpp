@@ -49,49 +49,60 @@ void CreatingInitialList(int N, ofstream& output)
 
     for (int i = 0; i < numberOfPlayers / 2; i++)
     {
-        int k = 3, k1, k2, temp = 0, j = 3, h = 0, g = 0;
+        int k = 3, k1, k2, temp = 0, j = 3;
 
         k1 = i + 1;
         k2 = numberOfPlayers - i;
 
-        if (i == 0)
+        if (N > 4) 
         {
-            result[i][1] = k1;
-            result[i][2] = k2;
-        }
-        else if (i == 1)
-        {
-            temp = numberOfPlayers / 2 - 1;
-            result[temp][1] = k1;
-            result[temp][2] = k2;
+                output << k1 << ' ';
+                output << k2 << ' ';
         }
         else
         {
-            if (i % 2 == 0)
+            if (i == 0)
             {
-                if (i == 6)
-                    k++;
-                temp = numberOfPlayers / 4 + i - k;
+                result[i][1] = k1;
+                result[i][2] = k2;
+            }
+            else if (i == 1)
+            {
+                temp = numberOfPlayers / 2 - 1;
                 result[temp][1] = k1;
                 result[temp][2] = k2;
-                k--;
-                
             }
             else
             {
-                if (i == 7)
-                    j++;
-                temp = numberOfPlayers / 2 - numberOfPlayers / 4 - i + j;
-                result[temp][1] = k1;
-                result[temp][2] = k2;
-                j--;
+                if (i % 2 == 0)
+                {
+                    if (i == 6)
+                        k++;
+                    temp = numberOfPlayers / 4 + i - k;
+                    result[temp][1] = k1;
+                    result[temp][2] = k2;
+                    k--;
+
+                }
+                else
+                {
+                    if (i == 7)
+                        j++;
+                    temp = numberOfPlayers / 2 - numberOfPlayers / 4 - i + j;
+                    result[temp][1] = k1;
+                    result[temp][2] = k2;
+                    j--;
+                }
             }
         }
     }
 
-    for (int i = 0; i < numberOfPlayers / 2; i++)
+    if (N <= 4)
     {
-        output << result[i][1] << ' ' << result[i][2] << ' ';
+        for (int i = 0; i < numberOfPlayers / 2; i++)
+        {
+            output << result[i][1] << ' ' << result[i][2] << ' ';
+        }
     }
 }
 
