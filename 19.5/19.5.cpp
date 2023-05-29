@@ -27,22 +27,22 @@ const string error = "Invalid value A or B";
 
 int main()
 {
-	double A, B, threshold = pow(10, 18);
-	long long result = 1;
+    uint64_t A, B,result = 0, temp, threshold = pow(10, 18);
 
-	input >> A >> B;
-	if (A < 1 || A > threshold || B < 1 || B > threshold)
-	{
-		output << error << endl;
-	}
-	else
-	{
-		while (A != B)
-		{
-			A > B ? A = A - B : B = B - A;
-			result++;
-		}
+    input >> A >> B;
+    if (A < 1 || A > threshold || B < 1 || B > threshold)
+    {
+        output << error << endl;
+    }
+    else
+    {
+        while (A && B)
+        {
+            A > B ? temp = A / B : temp = B / A;
+            A > B ? A -= B * temp : B -= A * temp;
+            result += temp;
+        }
 
-		output << result << endl;
-	}
+        output << result << endl;
+    }
 }

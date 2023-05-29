@@ -1,0 +1,7 @@
+﻿  14.13.cpp
+D:\Research-Data\Mlita\14.13\14.13.cpp(49,13): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+D:\Research-Data\Mlita\14.13\14.13.cpp(69,42): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+D:\Research-Data\Mlita\14.13\14.13.cpp(69,64): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+D:\Research-Data\Mlita\14.13\14.13.cpp(69,94): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+D:\Research-Data\Mlita\14.13\14.13.cpp(69,109): warning C4244: аргумент: преобразование "__int64" в "const unsigned int", возможна потеря данных
+  14.13.vcxproj -> D:\Research-Data\Mlita\14.13\Debug\14.13.exe
